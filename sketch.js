@@ -18,8 +18,8 @@ function setup(){
 
 
     ground = new Ground(750,height,1500,20);
-    polygon = new Polygon(200,330);
-    slingshot = new SlingShot(polygon.body,{x:200, y:300});
+    polygon = new Polygon(200,430);
+    slingshot = new SlingShot(polygon.body,{x:200, y:400});
 
     stand1 = new Stand(600, 400, 250, 10);
     stand2 = new Stand(1000, 300, 200, 10);
